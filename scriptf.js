@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('#btn').on('click', function() {
         $('#mostrar').hide(); 
         $('#contenedorMostrar').show(() => {
-            const audio = new Audio("./Scorpions - Rock You Like A Hurricane (Official Music Video).mp3");
+            const audio = new Audio("./Scorpions - Rock You Like A Hurricane (Official Music Video).mp4");
             audio.play();
 
             const date1 = new Date(); 
